@@ -38,7 +38,24 @@ You will need to install **'Motion' Library**:
 Change the settings of the IP camera,  by editing the file: /etc/default/motion so that it will be always running. Edit this file using ‘nano’ editor with ‘sudo’ like given below:  
 `sudo nano /etc/default/motion`
 ### Step 3  
-
-### Step 
-### Step 
+Change the setting to the following parameters to have a better result of IP camera:
+1.`daemon on`  
+2.`width 640` & `height 480`  
+3.`framerate 30`  
+4.`threshold 100`  
+5.`pre_capture 5` & `post_capture 900` & `event_gap 0`  
+6.`stream_maxrate 100`  
+7.`stream_localhost off`  
+Finally, run`$sudo service motion restart` to start using your IP camera
+## THIRD  
+### Step 1  
+We need FLASK to communicate with our website, install flask support package into the Raspberry Pi:  
+`$ pip install Flask`
+### Step 2  
+Then we can use the Flask by just importing it in our program  
+`from flask import Flask`  
+`from flask import Flask, render_template, request`  
+## FORTH  
+### Step 1  
+The code is in 
 
