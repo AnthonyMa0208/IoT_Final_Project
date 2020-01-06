@@ -85,7 +85,6 @@ def up_side():
    gpio.output(24,False)
    return 'true'
 ```
-## robot.html
 
 
 
