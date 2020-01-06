@@ -65,12 +65,12 @@ You can check your port by entering:
 `ifconfig`  
 *NOTE: Make sure your RPi and your computer is connected to the same internet*
 ### Step 3  
-And now you are good to go!  
+And now you are good to go! Start up your python code on your RPi and open `http://enter your rpi port:5010` on your computer  
 The final project will look like this:  
 ![image](81278210_3047456755287167_369002231199956992_n.jpg)  
 ![image](81608867_623882531487993_8893159678234591232_n.jpg)  
 ![image](81590468_580686446050255_5551851799721279488_n.jpg)  
-https://drive.google.com/open?id=1nwYbSwuluK011wdBBOuZflE8mwZRg2ax  
+**DEMO: https://drive.google.com/open?id=1nwYbSwuluK011wdBBOuZflE8mwZRg2ax**  
 # CODE EXPLANATION
 ## Run.py
 The four GPIO pins we used is **(17,22,23,24)**  
