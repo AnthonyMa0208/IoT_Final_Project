@@ -57,5 +57,35 @@ Then we can use the Flask by just importing it in our program
 `from flask import Flask, render_template, request`  
 ## FORTH  
 ### Step 1  
-The code is in 
+The python code is in `/propose/Run.py` and the website code is in `/propose/templates/robot.html`  
+You have to change your port number in `robot.html` where `<img src="http://192.168.43.199:8081" /> <!--Enter the IP Address of your Raspberry Pi-->`
+### Step 2  
+It is important to put the file this way, so that when we run`Run.py`we can access our IP camera and control our car by entering the website `http://enter your rpi port:5010`  
+You can check your port by entering:  
+`ifconfig`  
+*NOTE: Make sure your RPi and your computer is connected to the same internet*
+### Step 3  
+And now you are good to go!
+# CODE EXPLANATION
+## Run.py
+The four GPIO pins we used is **(17,22,23,24)**  
+**17**  controls the two right wheels going BACKWARDS  
+**22**  controls the two right wheels going FOWARDS  
+**23**  controls the two left wheels going FOWARDS  
+**24**  controls the two left wheels going BACKWARDS  
+**TRUE** gives the motor electricity  
+**FALSE** cuts the electricity  
+thus, the following code indicates how the car will go FOWARDS:  
+```python
+def up_side():
+   data1="FORWARD"
+   gpio.output(17,False)
+   gpio.output(22,True)
+   gpio.output(23,True)
+   gpio.output(24,False)
+   return 'true'
+```
+## robot.html
+
+
 
