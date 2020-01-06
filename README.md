@@ -75,12 +75,12 @@ https://drive.google.com/open?id=1nwYbSwuluK011wdBBOuZflE8mwZRg2ax
 ## Run.py
 The four GPIO pins we used is **(17,22,23,24)**  
 **17**  controls the two right wheels going BACKWARDS  
-**22**  controls the two right wheels going FOWARDS  
-**23**  controls the two left wheels going FOWARDS  
+**22**  controls the two right wheels going FORWARDS  
+**23**  controls the two left wheels going FORWARDS  
 **24**  controls the two left wheels going BACKWARDS  
 **TRUE** gives the motor electricity  
 **FALSE** cuts the electricity  
-thus, the following code indicates how the car will go FOWARDS:  
+thus, the following code indicates how the car will go FORWARDS:  
 ```python
 def up_side():
    data1="FORWARD"
