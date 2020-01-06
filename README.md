@@ -17,6 +17,13 @@ Breif knowledge of GPIO: https://drive.google.com/open?id=10NRMrGdvyJOpKrEXrakgW
 ### Step 1
 Attach all your equipments altogether:  
 ![image](81264684_518004092149188_8458543841538998272_n.jpg)
+![image](82778677_998200490535657_7713358322669191168_n.jpg)  
+The five GPIO ports we will be using is:  
+PIN6-> BLUE line  
+PIN11(BCM17)-> ORANGE line   
+PIN15(BCM22)-> RED line  
+PIN16(BCM23)-> BROWN line  
+PIN17(BCM24)-> BLACK line  
 ### Step 
 You will need to install **'Motion' Library**:  
 `sudo apt-get install motion`
