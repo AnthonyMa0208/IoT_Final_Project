@@ -13,11 +13,12 @@ Copper Line * 8
 ## First
 Install all the systems we needed:  
 Tutorial for installing operating system on your RPi: https://drive.google.com/open?id=1e_KVF0n1kBArT1zC4e_Q_EsCCeYeyH8h  
-Get to know what is GPIO: https://drive.google.com/open?id=10NRMrGdvyJOpKrEXrakgWA8GJoHJjmpS
+Breif knowledge of GPIO: https://drive.google.com/open?id=10NRMrGdvyJOpKrEXrakgWA8GJoHJjmpS
 ### Step 1
-
+Attach all your equipments altogether:  
+![image](81264684_518004092149188_8458543841538998272_n.jpg)
 ### Step 
-In addition, we also need to install **'Motion' Library**:  
+You will need to install **'Motion' Library**:  
 `sudo apt-get install motion`
 ### Step 
 ### Step 
