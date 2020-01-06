@@ -7,7 +7,7 @@ Robot Car Chassis * 1
 L298N Motor Controller * 1  
 DC Motors * 4
 IP Camera * 1  
-4 x 1.5V AA Battery Holder * 2
+4 x 1.5V AA Battery Holder * 2  
 Dupont Line * 7  
 Copper Line * 8  
 # Getting Started
