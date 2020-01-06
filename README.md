@@ -38,7 +38,7 @@ You will need to install **'Motion' Library**:
 Change the settings of the IP camera,  by editing the file: /etc/default/motion so that it will be always running. Edit this file using ‘nano’ editor with ‘sudo’ like given below:  
 `sudo nano /etc/default/motion`
 ### Step 3  
-Change the setting to the following parameters to have a better result of IP camera:
+Change the setting to the following parameters to have a better result of IP camera:  
 1.`daemon on`  
 2.`width 640` & `height 480`  
 3.`framerate 30`  
